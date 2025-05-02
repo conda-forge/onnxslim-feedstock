@@ -10,7 +10,7 @@ source:
   sha256: c2971d086fed7e61a64ac46e2c8993c2ef58cd51bbb0a184574928f750199cc8
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   entry_points:
@@ -32,6 +32,7 @@ test:
     - onnxslim
   commands:
     - pip check
+    - onnxslim --help
   requires:
     - pip
     - python {{ python_min }}
