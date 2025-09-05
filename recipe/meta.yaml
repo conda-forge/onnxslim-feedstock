@@ -23,10 +23,11 @@ requirements:
     - setuptools
   run:
     - colorama
+    - ml_dtypes
     - onnx
     - packaging
     - python >={{ python_min }}
-    - sympy
+    - sympy    
 
 test:
   imports:
