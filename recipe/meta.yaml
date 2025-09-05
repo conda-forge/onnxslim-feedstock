@@ -27,7 +27,7 @@ requirements:
     - onnx
     - packaging
     - python >={{ python_min }}
-    - sympy    
+    - sympy >=1.13.3
 
 test:
   imports:
