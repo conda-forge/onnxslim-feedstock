@@ -1,5 +1,5 @@
 {% set name = "onnxslim" %}
-{% set version = "0.1.77" %}
+{% set version = "0.1.78" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0a9efec09ca536e81e1b818b0d2c08f1aeca1565cd07bc5a12265e7ebe911b8e
+  sha256: b8e19d3b238a6c1d3f09d121063ad2e016ed7c85236648b01ce280b52579ea2b
 
 build:
   number: 0
