@@ -1,5 +1,5 @@
 {% set name = "onnxslim" %}
-{% set version = "0.1.80" %}
+{% set version = "0.1.81" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0ff5c51019de3c114721032ebe710aacb4163ef042526de0cfe1a182d496665f
+  sha256: 7a687fff31d24eb3ea88701f66d52d2665dff07d443ada84adf30f63a07256ef
 
 build:
   number: 0
@@ -20,7 +20,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    - setuptools
+    - hatchling
   run:
     - colorama
     - ml_dtypes
