@@ -20,7 +20,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    - setuptools
+    - hatchling
   run:
     - colorama
     - ml_dtypes
