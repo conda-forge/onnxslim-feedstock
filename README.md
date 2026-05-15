@@ -9,6 +9,8 @@ Package license: MIT
 
 Summary: A Toolkit to Help Optimize Onnx Model
 
+Development: https://github.com/inisis/OnnxSlim
+
 Current build status
 ====================
 
