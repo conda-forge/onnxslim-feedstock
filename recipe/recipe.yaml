@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: onnxslim
-  version: "0.1.98"
+  version: "0.1.99"
   python_min: "3.10"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/o/onnxslim/onnxslim-${{ version }}.tar.gz
-  sha256: f9160f1a325de623409a4fd0b3b876124ad1c604b1ebdd4ed81f25b888e42ff4
+  sha256: d662d6a6c384b64fe7464527a5865020c4335f8619a4a1272512ca0cc266867c
 
 build:
   number: 0
